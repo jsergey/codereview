@@ -5,7 +5,7 @@ import ru.agilemindset.codereview.ocp.advanced.answer.domain.*;
 /**
  * Created by sergeybaranov on 24/1/18.
  */
-public class EventInterceptor implements IEventEnterceptor{
+public class MoveEventInterceptor implements EventEnterceptor {
 
 
     public void interceptEvent(Enter event, Object entity) {

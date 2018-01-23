@@ -8,7 +8,7 @@ import ru.agilemindset.codereview.ocp.advanced.answer.domain.*;
 public class EventHandler {
 
     private Object entity;
-    private EventInterceptor eventInterceptor = new EventInterceptor();
+    private MoveEventInterceptor eventInterceptor = new MoveEventInterceptor();
 
     public void handleEvent(Event event) {
         event.handle(eventInterceptor, entity);
