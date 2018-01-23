@@ -1,4 +1,4 @@
-package ru.agilemindset.codereview.srp.domain;
+package ru.agilemindset.codereview.srp.simple.domain;
 
 import java.util.ArrayList;
 import java.util.List;

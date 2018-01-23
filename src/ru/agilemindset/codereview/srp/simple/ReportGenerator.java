@@ -1,7 +1,7 @@
-package ru.agilemindset.codereview.srp;
+package ru.agilemindset.codereview.srp.simple;
 
-import ru.agilemindset.codereview.srp.domain.Database;
-import ru.agilemindset.codereview.srp.domain.FileWriter;
+import ru.agilemindset.codereview.srp.simple.domain.Database;
+import ru.agilemindset.codereview.srp.simple.domain.FileWriter;
 
 import java.util.List;
 
